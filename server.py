@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 
 
 openai.api_key = OPENAI_API_KEY
