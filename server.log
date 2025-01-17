@@ -1,0 +1,20 @@
+nohup: ignoring input
+ * Serving Flask app 'server'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://45.133.246.206:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Получен запрос на /test_by_description
+INFO:root:Успешно сгенерированы тестовые вопросы (multiple-choice)
+INFO:werkzeug:95.24.0.178 - - [17/Jan/2025 15:37:27] "POST /test_by_description HTTP/1.1" 200 -
+INFO:root:Получен запрос на /test_by_description
+INFO:root:Успешно сгенерированы тестовые вопросы (multiple-choice)
+INFO:werkzeug:95.24.0.178 - - [17/Jan/2025 15:38:17] "POST /test_by_description HTTP/1.1" 200 -
+INFO:root:Получен запрос на /generate_test_questions
+INFO:root:Успешно сгенерированы тестовые вопросы (multiple-choice)
+INFO:werkzeug:45.133.246.206 - - [17/Jan/2025 15:39:07] "POST /generate_test_questions HTTP/1.1" 200 -
+INFO:root:Получен запрос на /test_by_description
+INFO:root:Успешно сгенерированы тестовые вопросы (multiple-choice)
+INFO:werkzeug:35.221.28.30 - - [17/Jan/2025 15:40:00] "POST /test_by_description HTTP/1.1" 200 -
